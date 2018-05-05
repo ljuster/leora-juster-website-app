@@ -1,15 +1,16 @@
 import React from 'react'
-// Components
-import ImagesTabs from './ImagesTabs'
-import ImagesToolbar from './ImagesToolbar'
-import { ConnectedImagesList as ImagesList } from './images_list'
+import Styles from './ImagesSection.css'
 
-const ImagesContainer = () => (
-  <div>
-    <ImagesTabs />
-    <ImagesToolbar />
-    <ImagesList />
+const ImagesTabs = ({ active, children, onClick }) => (
+  <div className={Styles.tabs}>
+    Images
+    <div className={Styles.tabContainer}>
+      <div className={Styles.border} />
+      <div onClick={onClick} className={Styles.children}>
+        {children}
+      </div>
+    </div>
   </div>
 )
 
-export default ImagesContainer
+export default ImagesTabs

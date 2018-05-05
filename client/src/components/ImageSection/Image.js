@@ -1,14 +1,9 @@
 import React from 'react'
-// Components
-import ImagesTabs from './ImagesTabs'
-import { ConnectedImagesList as ImagesList } from './images_list'
 
-const ImagesToolbar = () => (
+const Image = () => (
   <div>
-    <ImagesTabs />
-    <ImagesToolbar />
-    <ImagesList />
+
   </div>
 )
 
-export default ImagesToolbar
+export default Image

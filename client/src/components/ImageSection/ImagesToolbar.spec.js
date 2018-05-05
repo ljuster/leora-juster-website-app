@@ -1,53 +1,11 @@
 import React from 'react'
-import { connect } from 'react-redux'
-import { Link } from 'react-router-dom'
-import { debounce } from 'lodash'
-import Select from 'react-select'
-import Styles from './ImagesSection.css'
+import { shallow } from 'enzyme'
+import toJson from 'enzyme-to-json'
+import ImagesToolbar from './ImagesToolbar'
 
-class ImagesToolbar extends Component {
-  constructor (props) {
-    super(props)
-  }
-
-  onChange = (ev) => {
-    // const { section } = this.props
-    // this.props.openModal(MODAL_MAP[section])
-    return ev.preventDefault()
-  }
-
-  render () {
-    const { brandId, section } = this.props
-
-    return (
-      <div className={Styles.imgToolbarContainer}>
-        <span className={Styles.button}>
-          <Select
-            // ref={this.updateRef}
-            name={name}
-            value={'option1'}
-            options={['option1', 'option2']}
-            // arrowRenderer={arrowRenderer}
-            onChange={this.onChange}
-            placeholder={'placeholder'}
-          >
-          </Select>
-        </span>
-      </div>
-    )
-  }
-}
-
-const mapStateToProps = state => ({
-
+describe('ImagesToolbar', () => {
+  it('renders without props', () => {
+    const wrapper = shallow(<ImagesToolbar />)
+    expect(toJson(wrapper)).toMatchSnapshot()
+  })
 })
-
-const mapDispatchToProps = {
-
-}
-
-ImagesToolbar.propTypes = {
-
-}
-
-export default connect(mapStateToProps, mapDispatchToProps)(ImagesToolbar)
