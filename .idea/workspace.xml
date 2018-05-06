@@ -2,101 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="dfdf5632-6516-41ca-a437-4d960d93371d" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/react-client/dist/styles.css" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/react-client/src/components/HomePage.jsx" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" afterPath="$PROJECT_DIR$/.gitignore" />
-      <change beforePath="$PROJECT_DIR$/README.md" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/__mocks__/fileMock.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/__mocks__/styleMock.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/client/Procfile" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/client/README.md" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/client/coverage/base.css" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/client/coverage/block-navigation.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/client/coverage/coverage-final.json" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/client/coverage/index.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/client/coverage/prettify.css" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/client/coverage/prettify.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/client/coverage/sort-arrow-sprite.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/client/coverage/sorter.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/client/package.json" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/client/public/favicon.ico" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/client/public/index.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/client/public/manifest.json" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/client/src/App.css" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/client/src/App.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/client/src/App.test.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/client/src/actions/authActions.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/client/src/actions/imageActions.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/client/src/actions/newsActions.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/client/src/components/ImageSection/Image.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/client/src/components/ImageSection/ImageSection.selectors.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/client/src/components/ImageSection/ImagesContainer.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/client/src/components/ImageSection/ImagesList.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/client/src/components/ImageSection/ImagesSection.css" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/client/src/components/ImageSection/ImagesTabs.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/client/src/components/ImageSection/ImagesToolbar.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/client/src/components/ImageSection/ImagesToolbar.spec.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/client/src/components/ImageSection/index.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/client/src/components/containers/Authentication.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/client/src/components/containers/CommentsPanel.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/client/src/components/containers/News.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/client/src/components/containers/NewsArticle.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/client/src/components/containers/NewsSubmit.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/client/src/components/layouts/About.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/client/src/components/layouts/Home.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/client/src/components/layouts/Layout.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/client/src/components/presentation/CommentElement.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/client/src/components/presentation/CreateComment.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/client/src/components/presentation/Login.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/client/src/components/presentation/NewsItemDetail.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/client/src/components/presentation/NewsItemListing.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/client/src/components/presentation/Register.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/client/src/constants/actionTypes.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/client/src/img/Screen Shot 2017-12-23 at 11.16.22 AM.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/client/src/img/Screen Shot 2017-12-23 at 11.16.33 AM.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/client/src/img/Screen Shot 2018-01-02 at 10.28.15 AM.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/client/src/img/Screen Shot 2018-01-22 at 10.28.25 AM.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/client/src/img/Screen Shot 2018-03-13 at 5.49.21 PM.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/client/src/img/Screen Shot 2018-03-22 at 11.19.16 AM.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/client/src/img/alg.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/client/src/img/chrissi butt.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/client/src/img/feet.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/client/src/img/fire.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/client/src/img/iron.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/client/src/img/lamp.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/client/src/img/monaLJ.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/client/src/img/murder.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/client/src/img/screenpic.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/client/src/img/sculpture.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/client/src/img/sort.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/client/src/img/svm.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/client/src/img/trump.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/client/src/img/woah.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/client/src/img/|]''.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/client/src/index.css" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/client/src/index.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/client/src/logo.svg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/client/src/reducers/authReducer.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/client/src/reducers/newsReducer.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/client/src/registerServiceWorker.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/client/src/stores/store.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/client/src/stylesheets/global.css" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/client/src/stylesheets/variables.css" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/client/yarn.lock" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/package.json" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/server/.env" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/server/app.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/server/controllers/AuthController.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/server/controllers/NewsController.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/server/middleware/authCheck.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/server/models/Comment.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/server/models/News.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/server/models/User.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/server/package.json" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/server/routes/auth.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/server/routes/index.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/server/routes/news.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/server/yarn.lock" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change beforePath="$PROJECT_DIR$/react-client/package.json" afterPath="$PROJECT_DIR$/package.json" />
+      <change beforePath="$PROJECT_DIR$/react-client/src/server/index.js" afterPath="$PROJECT_DIR$/server/index.js" />
+      <change beforePath="$PROJECT_DIR$/react-client/webpack.config.js" afterPath="$PROJECT_DIR$/webpack.config.js" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -118,7 +27,7 @@
         </entry>
       </file>
       <file leaf-file-name="webpack.config.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/react-client/webpack.config.js">
+        <entry file="file://$PROJECT_DIR$/webpack.config.js">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="-208">
               <caret line="4" column="0" lean-forward="false" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
@@ -128,7 +37,7 @@
         </entry>
       </file>
       <file leaf-file-name="index.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/react-client/src/server/index.js">
+        <entry file="file://$PROJECT_DIR$/server/index.js">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="120">
               <caret line="6" column="27" lean-forward="false" selection-start-line="6" selection-start-column="27" selection-end-line="6" selection-end-column="27" />
@@ -177,7 +86,7 @@
         <entry file="file://$PROJECT_DIR$/react-client/src/components/FooterComponent/Footer.jsx">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="20">
-              <caret line="1" column="0" lean-forward="true" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
+              <caret line="1" column="0" lean-forward="false" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -187,7 +96,7 @@
         <entry file="file://$PROJECT_DIR$/react-client/dist/styles.css">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="420">
-              <caret line="21" column="1" lean-forward="true" selection-start-line="21" selection-start-column="1" selection-end-line="21" selection-end-column="1" />
+              <caret line="21" column="1" lean-forward="false" selection-start-line="21" selection-start-column="1" selection-end-line="21" selection-end-column="1" />
               <folding />
             </state>
           </provider>
@@ -204,10 +113,10 @@
         </entry>
       </file>
       <file leaf-file-name="package.json" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/react-client/package.json">
+        <entry file="file://$PROJECT_DIR$/package.json">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="180">
-              <caret line="9" column="35" lean-forward="true" selection-start-line="9" selection-start-column="35" selection-end-line="9" selection-end-column="35" />
+              <caret line="9" column="35" lean-forward="false" selection-start-line="9" selection-start-column="35" selection-end-line="9" selection-end-column="35" />
               <folding />
             </state>
           </provider>
@@ -311,9 +220,12 @@
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
-  <component name="ProjectFrameBounds" extendedState="1">
-    <option name="x" value="50" />
-    <option name="y" value="40" />
+  <component name="NodeModulesDirectoryManager">
+    <handled-path value="$PROJECT_DIR$/node_modules" />
+  </component>
+  <component name="ProjectFrameBounds" fullScreen="true">
+    <option name="x" value="44" />
+    <option name="y" value="23" />
     <option name="width" value="1396" />
     <option name="height" value="877" />
   </component>
@@ -364,31 +276,6 @@
             <path>
               <item name="leora-juster-website-app" type="b2602c69:ProjectViewProjectNode" />
               <item name="leora-juster-website-app" type="462c0819:PsiDirectoryNode" />
-              <item name="react-client" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="components" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="leora-juster-website-app" type="b2602c69:ProjectViewProjectNode" />
-              <item name="leora-juster-website-app" type="462c0819:PsiDirectoryNode" />
-              <item name="react-client" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="components" type="462c0819:PsiDirectoryNode" />
-              <item name="FooterComponent" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="leora-juster-website-app" type="b2602c69:ProjectViewProjectNode" />
-              <item name="leora-juster-website-app" type="462c0819:PsiDirectoryNode" />
-              <item name="react-client" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="components" type="462c0819:PsiDirectoryNode" />
-              <item name="HeaderComponent" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="leora-juster-website-app" type="b2602c69:ProjectViewProjectNode" />
-              <item name="leora-juster-website-app" type="462c0819:PsiDirectoryNode" />
-              <item name="react-client" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="server" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
@@ -413,9 +300,9 @@
       <recent name="$PROJECT_DIR$/client/src/components/ImageSection" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
       <recent name="$PROJECT_DIR$/react-client/src/components" />
       <recent name="$PROJECT_DIR$/server" />
-      <recent name="$PROJECT_DIR$" />
       <recent name="$PROJECT_DIR$/client" />
       <recent name="$PROJECT_DIR$/main_container" />
     </key>
@@ -448,18 +335,17 @@
       <updated>1525002256231</updated>
       <workItem from="1525002257471" duration="14367000" />
       <workItem from="1525268197329" duration="2421000" />
-      <workItem from="1525300507696" duration="19863000" />
+      <workItem from="1525300507696" duration="20456000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="36651000" />
+    <option name="totallyTimeSpent" value="37244000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="50" y="40" width="1396" height="877" extended-state="1" />
-    <editor active="true" />
+    <frame x="0" y="0" width="1440" height="900" extended-state="0" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24815361" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24034335" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Docker" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
@@ -818,7 +704,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/react-client/webpack.config.js">
+    <entry file="file://$PROJECT_DIR$/webpack.config.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-208">
           <caret line="4" column="0" lean-forward="false" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
@@ -826,7 +712,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/react-client/src/server/index.js">
+    <entry file="file://$PROJECT_DIR$/server/index.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="120">
           <caret line="6" column="27" lean-forward="false" selection-start-line="6" selection-start-column="27" selection-end-line="6" selection-end-column="27" />
@@ -875,7 +761,7 @@
     <entry file="file://$PROJECT_DIR$/react-client/src/components/FooterComponent/Footer.jsx">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="20">
-          <caret line="1" column="0" lean-forward="true" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
+          <caret line="1" column="0" lean-forward="false" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
           <folding />
         </state>
       </provider>
@@ -891,15 +777,15 @@
     <entry file="file://$PROJECT_DIR$/react-client/dist/styles.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="420">
-          <caret line="21" column="1" lean-forward="true" selection-start-line="21" selection-start-column="1" selection-end-line="21" selection-end-column="1" />
+          <caret line="21" column="1" lean-forward="false" selection-start-line="21" selection-start-column="1" selection-end-line="21" selection-end-column="1" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/react-client/package.json">
+    <entry file="file://$PROJECT_DIR$/package.json">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="180">
-          <caret line="9" column="35" lean-forward="true" selection-start-line="9" selection-start-column="35" selection-end-line="9" selection-end-column="35" />
+          <caret line="9" column="35" lean-forward="false" selection-start-line="9" selection-start-column="35" selection-end-line="9" selection-end-column="35" />
           <folding />
         </state>
       </provider>
