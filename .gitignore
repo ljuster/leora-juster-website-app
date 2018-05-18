@@ -7,3 +7,6 @@ bundle.js
 # Dependency directories
 node_modules/
 .idea/
+config/dev.js
+.idea
+.idea/*
