@@ -1,0 +1,13 @@
+.imgContainer {
+    display: flex;
+    flex-wrap: nowrap;
+}
+
+img {
+    max-width: 100px;
+    max-height: 100px;
+    /* Truncate text with ellipsis */
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
+}
