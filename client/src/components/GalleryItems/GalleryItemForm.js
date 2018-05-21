@@ -1,7 +1,8 @@
 // BlogForm shows a form for a user to add input
 import _ from 'lodash'
 import React, { Component } from 'react'
-import { reduxForm, Field } from 'redux-form'
+import { connect } from 'react-redux'
+import { reduxForm, Field, getFormValues, formValueSelector } from 'redux-form'
 import { Link } from 'react-router-dom'
 import GalleryItemField from './GalleryItemField'
 import formFields from './formFields'
@@ -26,6 +27,7 @@ class GalleryItemForm extends Component {
       <div>
         <form onSubmit={this.props.handleSubmit(this.props.onGalleryItemSubmit)}>
           {this.renderFields()}
+          <img src={this.props.imageUrl} />
           <Link to="/gallery_items" className="red btn-flat white-text">
             Cancel
           </Link>
@@ -51,8 +53,17 @@ function validate(values) {
   return errors
 }
 
-export default reduxForm({
+const GalleryItemFormExport = reduxForm({
   validate,
   form: 'galleryItemForm',
   destroyOnUnmount: false
 })(GalleryItemForm)
+
+const formSelector = formValueSelector('galleryItemForm')
+
+const mapStateToProps = state => ({
+  imageUrl: formSelector(state, 'image_url')
+})
+
+export default connect(mapStateToProps, null)(GalleryItemFormExport)
+

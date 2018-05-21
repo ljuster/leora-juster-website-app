@@ -1,6 +1,7 @@
 // GalleryItemFormReview shows users their form inputs for review
 import _ from 'lodash'
 import React, { Component } from 'react'
+// import Image from 'material-ui-image'
 import { connect } from 'react-redux'
 import formFields from './formFields'
 import { withRouter } from 'react-router-dom'
@@ -58,7 +59,6 @@ class GalleryItemFormReview extends Component {
       <form onSubmit={this.onSubmit.bind(this)}>
         <h5>Please confirm your entries</h5>
         {this.renderFields()}
-
         <h5>Add An Image</h5>
         <input
           onChange={this.onFileChange.bind(this)}

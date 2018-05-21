@@ -1,4 +1,4 @@
 export default [
-  { label: 'Blog Title', name: 'title' },
-  { label: 'Content', name: 'content' }
+  { label: 'Img Name', name: 'name' },
+  { label: 'Image Url', name: 'image_url' }
 ];
