@@ -5,7 +5,7 @@ const bodyParser = require('body-parser');
 const keys = require('./config/keys');
 
 require('./models/User');
-require('./models/Blog');
+require('./models/GalleryItem');
 
 mongoose.Promise = global.Promise;
 mongoose.connect(keys.mongoURI, { useMongoClient: true });
@@ -20,7 +20,7 @@ app.use(
   })
 );
 
-require('./routes/blogRoutes')(app);
+require('./routes/galleryItemsRoutes')(app);
 require('./routes/uploadRoutes')(app);
 
 if (['production', 'ci'].includes(process.env.NODE_ENV)) {

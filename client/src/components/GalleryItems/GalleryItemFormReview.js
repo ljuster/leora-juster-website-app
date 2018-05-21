@@ -1,16 +1,16 @@
-// BlogFormReview shows users their form inputs for review
-import _ from 'lodash';
-import React, { Component } from 'react';
-import { connect } from 'react-redux';
-import formFields from './formFields';
-import { withRouter } from 'react-router-dom';
-import * as actions from '../../actions';
+// GalleryItemFormReview shows users their form inputs for review
+import _ from 'lodash'
+import React, { Component } from 'react'
+import { connect } from 'react-redux'
+import formFields from './formFields'
+import { withRouter } from 'react-router-dom'
+import * as actions from '../../actions'
 
-class BlogFormReview extends Component {
-  state = { file: null };
+class GalleryItemFormReview extends Component {
+  state = { file: null }
 
   renderFields() {
-    const { formValues } = this.props;
+    const { formValues } = this.props
 
     return _.map(formFields, ({ name, label }) => {
       return (
@@ -18,12 +18,12 @@ class BlogFormReview extends Component {
           <label>{label}</label>
           <div>{formValues[name]}</div>
         </div>
-      );
-    });
+      )
+    })
   }
 
   renderButtons() {
-    const { onCancel } = this.props;
+    const { onCancel } = this.props
 
     return (
       <div>
@@ -34,23 +34,23 @@ class BlogFormReview extends Component {
           Back
         </button>
         <button className="green btn-flat right white-text">
-          Save Blog
+          Save Gallery Item
           <i className="material-icons right">email</i>
         </button>
       </div>
-    );
+    )
   }
 
   onSubmit(event) {
-    event.preventDefault();
+    event.preventDefault()
 
-    const { submitBlog, history, formValues } = this.props;
+    const { submitGalleryItem, history, formValues } = this.props
 
-    submitBlog(formValues, this.state.file, history);
+    submitGalleryItem(formValues, this.state.file, history)
   }
 
   onFileChange(event) {
-    this.setState({ file: event.target.files[0] });
+    this.setState({ file: event.target.files[0] })
   }
 
   render() {
@@ -68,12 +68,12 @@ class BlogFormReview extends Component {
 
         {this.renderButtons()}
       </form>
-    );
+    )
   }
 }
 
 function mapStateToProps(state) {
-  return { formValues: state.form.blogForm.values };
+  return { formValues: state.form.galleryItemForm.values }
 }
 
-export default connect(mapStateToProps, actions)(withRouter(BlogFormReview));
+export default connect(mapStateToProps, actions)(withRouter(GalleryItemFormReview))

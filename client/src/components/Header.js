@@ -16,7 +16,10 @@ class Header extends Component {
       default:
         return [
           <li key="3" style={{ margin: '0 10px' }}>
-            <Link to="/blogs">My Blogs</Link>
+            <Link to="/gallery">My Gallery</Link>
+          </li>,
+          <li key="4" style={{ margin: '0 10px' }}>
+            <Link to="/gallery/new">Add New Gallery Item</Link>
           </li>,
           <li key="2">
             <a href={'/auth/logout'}>Logout</a>
@@ -30,11 +33,11 @@ class Header extends Component {
       <nav className="indigo">
         <div className="nav-wrapper">
           <Link
-            to={this.props.auth ? '/blogs' : '/'}
+            to={this.props.auth ? '/gallery' : '/'}
             className="left brand-logo"
             style={{ marginLeft: '10px' }}
           >
-            Blogster
+            Leora Juster Gallery
           </Link>
           <ul className="right">{this.renderContent()}</ul>
         </div>
@@ -47,4 +50,4 @@ function mapStateToProps({ auth }) {
   return { auth };
 }
 
-export default connect(mapStateToProps)(Header);
+export default connect(mapStateToProps)(Header)

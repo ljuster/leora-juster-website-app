@@ -1,32 +1,32 @@
 // BlogForm shows a form for a user to add input
-import _ from 'lodash';
-import React, { Component } from 'react';
-import { reduxForm, Field } from 'redux-form';
-import { Link } from 'react-router-dom';
-import BlogField from './BlogField';
-import formFields from './formFields';
+import _ from 'lodash'
+import React, { Component } from 'react'
+import { reduxForm, Field } from 'redux-form'
+import { Link } from 'react-router-dom'
+import GalleryItemField from './GalleryItemField'
+import formFields from './formFields'
 
-class BlogForm extends Component {
+class GalleryItemForm extends Component {
   renderFields() {
     return _.map(formFields, ({ label, name }) => {
       return (
         <Field
           key={name}
-          component={BlogField}
+          component={GalleryItemField}
           type="text"
           label={label}
           name={name}
         />
-      );
-    });
+      )
+    })
   }
 
   render() {
     return (
       <div>
-        <form onSubmit={this.props.handleSubmit(this.props.onBlogSubmit)}>
+        <form onSubmit={this.props.handleSubmit(this.props.onGalleryItemSubmit)}>
           {this.renderFields()}
-          <Link to="/blogs" className="red btn-flat white-text">
+          <Link to="/gallery_items" className="red btn-flat white-text">
             Cancel
           </Link>
           <button type="submit" className="teal btn-flat right white-text">
@@ -35,24 +35,24 @@ class BlogForm extends Component {
           </button>
         </form>
       </div>
-    );
+    )
   }
 }
 
 function validate(values) {
-  const errors = {};
+  const errors = {}
 
   _.each(formFields, ({ name }) => {
     if (!values[name]) {
-      errors[name] = 'You must provide a value';
+      errors[name] = 'You must provide a value'
     }
-  });
+  })
 
-  return errors;
+  return errors
 }
 
 export default reduxForm({
   validate,
-  form: 'blogForm',
+  form: 'galleryItemForm',
   destroyOnUnmount: false
-})(BlogForm);
+})(GalleryItemForm)
